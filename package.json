@@ -1,0 +1,36 @@
+{
+  "name": "markdown-previewer",
+  "version": "1.0.0",
+  "description": "Creates GitHub-flavored Markdown of the inputted text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 1234 --history-api-fallback"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classact1/markdownPreviewer.git"
+  },
+  "author": "class-act",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/classact1/markdownPreviewer/issues"
+  },
+  "homepage": "https://github.com/classact1/markdownPreviewer#readme",
+  "dependencies": {
+    "marked": "^0.3.6",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
