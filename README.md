@@ -13,4 +13,10 @@ Requirements:
 
 To run locally:
 
-
+```bash
+git clone https://github.com/classact1/markdownPreviewer.git
+cd markdownPreviewer
+npm run setup
+npm start
+open http://localhost:1234
+```
