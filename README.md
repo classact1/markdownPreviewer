@@ -7,10 +7,9 @@ Project created using React (+Webpack +Babel).
 
 Requirements:
 
-
-  * apples
-  * oranges
-  * pears
+  * git
+  * node
+  * npm
 
 To run locally:
 
